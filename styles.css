@@ -1,0 +1,40 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body, html {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Arial', sans-serif;
+}
+
+/* Estilos para la barra de navegación */
+.barra-navegacion ul {
+    list-style: none; /* Oculta las viñetas */
+    display: flex; /* Usa Flexbox para alinear horizontalmente */
+    align-items: center; /* Centrado vertical de los elementos del menú */
+    justify-content: center; /* Centrado horizontal de los elementos del menú */
+    width: 100%; /* Ancho total dentro de su contenedor */
+    padding: 20px 0; /* Espaciado vertical para la barra */
+}
+
+.barra-navegacion li {
+    margin: 0 15px; /* Espacio horizontal entre elementos */
+}
+
+.barra-navegacion a {
+    text-decoration: none; /* Elimina subrayado de los enlaces */
+    color: black; /* Color del texto de los enlaces */
+    font-size: 1.2em; /* Tamaño del texto */
+    transition: color 0.3s ease-in-out; /* Transición suave para cambio de color */
+}
+
+.barra-navegacion a:hover {
+    color: blue; /* Cambia el color a azul al pasar el mouse */
+}
